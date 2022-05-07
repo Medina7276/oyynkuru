@@ -1,0 +1,53 @@
+baseURL = "example.com"
+title = "oyynkuru"
+theme = "manis"
+copyright = "&copy; 2022 Medina7276"
+pluralizeListTitles = false
+paginate = 10
+disqusShortname = ""
+defaultContentLanguage = "en"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+
+[[menu.main]]
+name = "About"
+url = "/about"
+
+[[menu.main]]
+name = "Team"
+url = "/team"
+
+[taxonomies]
+tag = "tags"
+
+[params]
+debugCSS = false
+customCSS = [ ]
+description = "Sweet little Hugo's theme for personal website or blog."
+tagline = "indie game studio"
+themeAttrib = true
+mainSections = [ "blog" ]
+workSections = [ "work" ]
+disqusSections = [ "blog" ]
+utterancesSections = [ "blog" ]
+utterancesRepo = ""
+utterancesTheme = "github-light"
+utterancesLabel = ""
+head404 = "Sorry, I can't find what you want."
+sub404 = "Back to <a href='/'>Home</a>."
+colorTheme = "#ff6565"
+latestCount = 3
+faviconImg = ""
+dateFmt = "Jan 02, 2006"
+highlightJs = false
+highlightJsLanguages = [ "go" ]
+highlightJsStyle = "ocean"
+email = "medina@oyynkuru.com"
+twitter = "https://twitter.com/oyynkuru"
+reddit = "https://www.reddit.com/user/oyynkuru"
+youtube = ""
+ko-fi = "https://ko-fi.com/oyynkuru"
